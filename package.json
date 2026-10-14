@@ -1,0 +1,11 @@
+{
+  "name": "chequeo-seguridad-web",
+  "version": "0.1.0",
+  "description": "Revisa la seguridad básica de un sitio (HTTPS, encabezados, cookies, archivos expuestos, WordPress, SPF/DMARC) y arma un informe en español para el cliente.",
+  "type": "module",
+  "bin": { "chequeo-seguridad-web": "src/cli.js" },
+  "scripts": { "test": "node --test test/*.test.js" },
+  "engines": { "node": ">=18" },
+  "author": "Joaquin Alejandro Bobbio",
+  "license": "MIT"
+}

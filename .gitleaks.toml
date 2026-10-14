@@ -1,0 +1,8 @@
+# Usa las reglas de gitleaks y permite la clave del certificado autofirmado de los tests,
+# que solo sirve para un servidor local de prueba.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Certificado de prueba local"
+paths = ['''test/certs/clave\.pem''']
